@@ -1,0 +1,92 @@
+[
+  {
+    "id": "G01",
+    "name": "Generic Medicine",
+    "medicineCount": 2,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Augmentin 625 Duo Tablet", "count": 22 },
+      { "name": "Azithral 500 Tablet", "count": 8 }
+    ]
+  },
+  {
+    "id": "G02",
+    "name": "Diabetes",
+    "medicineCount": 32,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Metformin", "count": 15 },
+      { "name": "Insulin", "count": 17 }
+    ]
+  },
+  {
+    "id": "G03",
+    "name": "Cardiology",
+    "medicineCount": 20,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Aspirin", "count": 10 },
+      { "name": "Clopidogrel", "count": 10 }
+    ]
+  },
+  {
+    "id": "G04",
+    "name": "Neurology",
+    "medicineCount": 15,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Gabapentin", "count": 7 },
+      { "name": "Carbamazepine", "count": 8 }
+    ]
+  },
+  {
+    "id": "G05",
+    "name": "Dermatology",
+    "medicineCount": 10,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Hydrocortisone Cream", "count": 5 },
+      { "name": "Clobetasol Propionate Cream", "count": 5 }
+    ]
+  },
+  {
+    "id": "G06",
+    "name": "Gastroenterology",
+    "medicineCount": 12,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Omeprazole", "count": 6 },
+      { "name": "Pantoprazole", "count": 6 }
+    ]
+  },
+  {
+    "id": "G07",
+    "name": "Respiratory",
+    "medicineCount": 18,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Salbutamol", "count": 9 },
+      { "name": "Fluticasone", "count": 9 }
+    ]
+  },
+  {
+    "id": "G08",
+    "name": "Orthopedics",
+    "medicineCount": 14,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Ibuprofen", "count": 7 },
+      { "name": "Diclofenac", "count": 7 }
+    ]
+  },
+  {
+    "id": "G10",
+    "name": "Pediatrics",
+    "medicineCount": 25,
+    "link": "View Full Detail",
+    "medicines": [
+      { "name": "Paracetamol Syrup", "count": 13 },
+      { "name": "Amoxicillin Suspension", "count": 12 }
+    ]
+  }
+]

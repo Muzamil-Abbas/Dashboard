@@ -1,0 +1,141 @@
+/* General Styles */
+.contact-management-container {
+  max-width: 100vw;
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+}
+
+.contact-management-header {
+  color: #495057;
+}
+
+.contact-management-header h2 {
+  font-size: 2em;
+}
+
+.contact-management-header p {
+  font-size: 1.2em;
+  padding: 0.25rem;
+}
+
+.contact-management-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-list,
+.contact-form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list h3,
+.contact-form h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #495057;
+  border-bottom: 2px solid #42919a;
+  padding: 0.5rem 0;
+}
+
+.contact-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin: 1rem 0;
+  font-size: 1.1em;
+}
+
+/* GetTechnicalHelp.css */
+.contact-us-form {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.contact-us-form h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+  text-align: center;
+}
+
+.contact-us-form .grid-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.contact-us-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-form .form-group.full-width {
+  grid-column: span 2;
+}
+
+.contact-us-form label {
+  font-size: 1rem;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+.contact-us-form input,
+.contact-us-form textarea,
+.contact-us-form select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.contact-us-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-us-form .submit-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  grid-column: span 2;
+  margin-top: 1rem;
+}
+
+.contact-us-form .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-us-form {
+    padding: 1.5rem;
+    max-width: 95vw;
+  }
+
+  .contact-us-form h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-us-form .grid-form {
+    grid-template-columns: 1fr;
+  }
+}

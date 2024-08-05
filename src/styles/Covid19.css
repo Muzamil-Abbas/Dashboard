@@ -1,0 +1,74 @@
+/* Covid19.css */
+
+.covid-container {
+  padding: 1.5rem;
+  background-color: #e9ecef;
+  border-radius: 0.5rem;
+  max-width: 100vw;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.covid-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.covid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.covid-section {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #42919a;
+}
+
+.covid-section p {
+  margin: 0 0 1rem;
+  color: #495057;
+}
+
+.covid-stats,
+.region-updates,
+.prevention-tips {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.covid-stats li,
+.region-updates li,
+.prevention-tips li {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .covid-container {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .covid-title {
+    font-size: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+}

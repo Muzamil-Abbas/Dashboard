@@ -1,0 +1,64 @@
+.medicine-component {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  width: 31.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #1d242e4d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.links {
+  display: flex;
+  padding: 0.75rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1d242e4d;
+}
+.medicine-component h4 {
+  font-size: 1rem;
+}
+
+.config-link {
+  display: flex;
+  align-items: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.config-link:hover {
+  text-decoration: underline;
+}
+
+.arrow-icon {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.stats {
+  display: flex;
+  padding: 1.35rem 1rem;
+  justify-content: space-between;
+}
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stat-number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666666;
+}
+
+@media (max-width: 600px) {
+  .medicine-component {
+    width: 25rem;
+  }
+}

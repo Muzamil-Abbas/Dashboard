@@ -1,0 +1,22 @@
+{
+  "branding": {
+    "pharmacyName": "Pharma One",
+    "pharmacyID": "PH349TY228"
+  },
+  "owner": {
+    "ownerName": "Subash",
+    "email": "user@mail.com"
+  },
+  "pages": [
+    {
+      "name": "Dashboard",
+      "subPages": [
+        "Inventory",
+        "Reports",
+        "Configuration",
+        "Contact Management",
+        "Notifications"
+      ]
+    }
+  ]
+}

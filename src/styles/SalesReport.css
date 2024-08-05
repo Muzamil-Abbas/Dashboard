@@ -1,0 +1,110 @@
+/* SalesReport.css */
+
+.sales-report-container {
+  max-width: 100vw;
+  padding: 20px;
+}
+.report-list {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+.report-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.report-list-container p {
+  color: #6c6c6c;
+}
+.select-button {
+  margin-bottom: 0;
+}
+.filter-item {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-picker {
+  width: 20rem;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #e4f2f8;
+}
+
+.calendar-icons {
+  left: 8.5rem;
+  position: relative;
+  bottom: 1.85rem;
+}
+
+.select-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.select-input {
+  width: 20rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #e4f2f8;
+}
+
+.dropdown-icon {
+  position: absolute;
+  right: 1.5rem;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sales-graph-box {
+  width: 55%;
+  height: fit-content;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sales-graph-box h3 {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+.sales-table-box {
+  width: 40%;
+  height: fit-content;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sales-graph {
+  margin: 20px 0;
+}
+
+.sales-graph-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: separate;
+}
+
+.sales-table th {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+.sales-table td {
+  text-align: left;
+  color: #494b4d;
+  padding: 0.8rem 2.45rem;
+}

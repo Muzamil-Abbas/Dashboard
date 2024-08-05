@@ -1,0 +1,177 @@
+button.css .button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  padding: 0.75rem;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  font-size: 16px;
+  color: #6c757d;
+  border-radius: 4px;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #fcfcfc;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button-right-icon {
+  padding-left: 0.5rem;
+}
+
+.dropdown-menu {
+  left: 0;
+  top: 100%;
+  width: 200px;
+  z-index: 1000;
+  display: flex;
+  border-radius: 4px;
+  position: absolute;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+  border: none;
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+  background: none;
+  text-align: left;
+  align-items: center;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.dropdown-icon {
+  margin-right: 12px;
+}
+
+/* button.css */
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-button:hover {
+  transform: scale(1.05);
+}
+
+.custom-button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.custom-button .button-icon {
+  margin-right: 8px;
+}
+
+/* Additional classes for different button types */
+.add-button {
+  background-color: red;
+}
+
+.add-button:hover {
+  background-color: darkred;
+}
+.select-button {
+  color: #6c757d;
+  flex-direction: row-reverse;
+  background-color: #ffff;
+  border: 1px solid #a2a3a5;
+}
+.select-button .button-icon {
+  margin-left: 8px;
+}
+.select-button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.save-button {
+  background-color: #f0483e;
+}
+
+.save-button:hover {
+  background-color: darkred;
+}
+
+.edit-button {
+  background-color: #03a9f5;
+}
+
+.edit-button:hover {
+  background-color: #0288c6;
+}
+
+.delete-button {
+  color: #f0473ea8;
+  background-color: #fff;
+  border: 1px solid #f0473e55;
+}
+
+.delete-button:hover {
+  color: #f0483e;
+}
+
+/* Dropdown menu styles */
+.button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 100%;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Optional: Adjusting dropdown item for the last item */
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-icon {
+  font-size: 18px;
+}

@@ -1,0 +1,208 @@
+.inventory-list-container {
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inventory-header-container {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.inventory-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inventory-title-section {
+  display: flex;
+  gap: 1rem;
+}
+
+.inventory-title-section h3 {
+  margin: 0;
+  color: #868686;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inventory-link {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.inventory-search-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 12px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.inventory-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.inventory-table td a {
+  color: #373737;
+  text-decoration: none;
+}
+
+.inventory-table td a:hover {
+  text-decoration: underline;
+}
+.medicine-icon {
+  font-size: small;
+  padding: 0 0.75rem;
+}
+.inventory-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inventory-pagination p {
+  color: #666;
+}
+.pagination-controls {
+  display: flex;
+  align-items: center;
+}
+
+.pagination-icon {
+  font-size: large;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #666;
+}
+
+.inventory-details-container {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.inventory-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.inventory-info {
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.inventory-info h4 {
+  padding: 0.75rem;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+.inventory-info p {
+  font-size: 14px;
+  color: #666;
+  padding: 2rem 0.75rem;
+}
+.delete-button-section {
+  padding: 1rem 0;
+}
+.add-new-medicine-form {
+  margin-top: 20px;
+}
+
+.mandatory-fields {
+  font-size: 14px;
+  color: #868686;
+  margin: 0.75rem 0;
+}
+
+.add-new-medicine-fields {
+  width: 75%;
+  gap: 1rem;
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: column;
+}
+
+.first-fields {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.first-fields label,
+.second-fields label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.first-fields input,
+.first-fields select,
+.second-fields textarea,
+.second-fields select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.second-fields {
+  gap: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-fields label,
+.second-fields label {
+  display: block;
+}
+
+.first-fields input,
+.first-fields select {
+  width: 100%;
+}
+.second-fields textarea {
+  height: 6.5rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .inventory-header-container {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inventory-details {
+    flex-direction: column;
+  }
+
+  .first-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .second-fields {
+    width: 100%;
+  }
+}

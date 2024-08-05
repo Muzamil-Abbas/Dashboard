@@ -1,0 +1,199 @@
+@import "../index.css";
+
+.header {
+  top: 0;
+  right: 0;
+  width: 80vw;
+  display: flex;
+  position: fixed;
+  padding: 0 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hamburger-menu {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.first-element {
+  gap: 7rem;
+  display: flex;
+  align-items: center;
+}
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0rem 0.75rem;
+}
+
+.search-input {
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 35vw;
+  background-color: var(--bg-button);
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.lang-dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.lang-dropdown .dropdown--icon {
+  padding-left: 0.5rem;
+}
+
+.lang-dropdown .dropdown-menus {
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 0.2rem;
+  z-index: 1000;
+  height: 125px;
+  margin: 1.5rem 0;
+  overflow-y: scroll;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lang-dropdown .dropdown-items {
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.lang-dropdown .dropdown-items:hover {
+  background-color: var(--text-color);
+}
+
+.morning {
+  display: flex;
+  align-items: center;
+}
+
+.sun-icon {
+  margin-right: 10px;
+  color: var(--yellow);
+}
+
+.morning-text {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0.5rem 1rem;
+}
+
+.morning-text p {
+  padding: 0.5rem 0;
+}
+
+.date-time-container span {
+  margin: 0;
+  padding: 0;
+}
+/* Mobile Devices (Portrait) */
+
+@media (max-width: 600px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-between;
+  }
+
+  .search-container {
+    width: 50%;
+  }
+
+  .search-input {
+    width: calc(100%);
+    padding: 0.75rem;
+  }
+  .first-element {
+    gap: 0;
+    align-items: center;
+    display: inline-flex;
+  }
+  .lang-dropdown {
+    order: 1;
+    width: 16rem;
+    display: none;
+  }
+  .hamburger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+  }
+  .morning {
+    order: 2;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .morning-text {
+    margin: 0.25rem 0;
+    font-size: 0.85rem;
+    align-items: flex-end;
+  }
+
+  .date-time-container span {
+    font-size: 0.75em;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-between;
+  }
+  .first-element {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    margin: 1rem;
+    width: 15rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--bg-button);
+  }
+  .search-icon {
+    position: relative;
+    right: 2.75rem;
+  }
+  .lang-dropdown {
+    width: 100%;
+  }
+
+  .morning {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .morning-text {
+    font-size: 0.9rem;
+  }
+  .date-time-container span {
+    font-size: 0.75rem;
+  }
+}

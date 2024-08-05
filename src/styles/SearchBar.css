@@ -1,0 +1,22 @@
+.second-search-bar {
+  height: 3rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #e4f2f8;
+}
+
+.second-search-icon {
+  right: 2rem;
+  cursor: pointer;
+  position: relative;
+}

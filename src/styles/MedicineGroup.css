@@ -1,0 +1,34 @@
+.medicine-group-container {
+  gap: 0.5rem;
+  display: flex;
+  max-width: 100vw;
+  padding: 0 1.5rem;
+  flex-direction: column;
+}
+.add-button {
+  margin-bottom: 0;
+}
+.medicine-group-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.medicine-group-table th,
+.medicine-group-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.medicine-group-table th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.medicine-group-table a {
+  color: #373737;
+  text-decoration: none;
+}
+
+.medicine-group-table td a:hover {
+  text-decoration: underline;
+}

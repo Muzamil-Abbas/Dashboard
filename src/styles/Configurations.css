@@ -1,0 +1,85 @@
+.configurations-container {
+  padding: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 100vw;
+}
+
+.configurations-header {
+  margin-bottom: 20px;
+  padding: 0.25rem;
+}
+
+.configurations-header h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.configurations-header .role {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.configurations-header .description {
+  font-size: 16px;
+  color: #888;
+}
+
+.configurations-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.branding-section,
+.owner-details-section,
+.page-actions-section {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.branding-section h2,
+.owner-details-section h2,
+.page-actions-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.section-content {
+  font-size: 16px;
+  color: #555;
+}
+
+.page-actions-section .page-item {
+  margin-bottom: 15px;
+}
+
+.page-actions-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-actions-section ul li {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.configurations-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.configurations-footer p {
+  font-size: 14px;
+  color: #888;
+  margin: 5px 0;
+}

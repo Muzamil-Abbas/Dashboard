@@ -1,0 +1,23 @@
+@import "../index.css";
+
+footer {
+  width: 20vw;
+  left: 0;
+  position: fixed;
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+  background-color: var(--black);
+}
+
+footer span {
+  color: #ffffffb2;
+  padding: 0.87rem;
+  font-size: x-small;
+}
+
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+  }
+}

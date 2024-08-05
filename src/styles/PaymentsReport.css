@@ -1,0 +1,139 @@
+/* Container styling */
+.payments-report-container {
+  max-width: 100vw;
+  gap: 0.75rem;
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+}
+
+/* Header styling */
+.payments-report-container h2 {
+  color: #333;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Filters section */
+.payment-heading-containered {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-heading {
+  gap: 0.55rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Payment summary styling */
+.payment-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-item {
+  width: 30%;
+  background-color: #ffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.summary-item h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.summary-item p {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+}
+
+/* Table container styling */
+.payment-table-container {
+  overflow-x: auto;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.payment-table th,
+.payment-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.payment-table th {
+  background-color: #e9ecef;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.payment-table td {
+  font-size: 16px;
+  color: #555;
+}
+
+.payment-table tr:hover {
+  background-color: #f1f3f5;
+}
+
+.payment-table td.status-completed {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.payment-table td.status-pending {
+  color: #ffc107;
+  font-weight: 500;
+}
+
+.payment-table td.status-failed {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .payment-heading {
+    gap: 0.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payment-summary {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .payments-report-container h2 {
+    font-size: 1.25rem;
+  }
+  .summary-item {
+    width: 100%;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .date-picker {
+    width: 100%;
+  }
+}
